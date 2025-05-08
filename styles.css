@@ -541,11 +541,11 @@ body {
 .Main_DetalleProducto-producto {
   display: flex;
   flex-wrap: wrap;
-  width: auto;
-
-  padding: 20px 20px;
+  width: 100%;
+  padding: 20px 50px;
   height: 700px;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0 50px;
 }
 
 .Main_DetalleProducto-productoimagen2 {
@@ -633,7 +633,6 @@ body {
 .Main_DetalleProducto-Agregar {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
 }
 
@@ -658,7 +657,7 @@ body {
 .Main_DetalleProducto-Especificaciones {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 20px 0;
   align-items: center;
   margin: 50px;
   margin-top: 0;
@@ -680,7 +679,7 @@ body {
 /********************************************************************************************************PIE PAGINA*/
 .Pie_pagina {
   width: 100%;
-  height: 600px;
+  height: 650px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "Pie_pagina-1 Pie_pagina-3";
@@ -712,7 +711,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 40px;
-  margin: 15px;
 }
 
 .Pie_pagina-Contacto,
@@ -720,7 +718,7 @@ body {
 .Pie_pagina-RedesSociales,
 .Pie_pagina-terminos {
   width: 200px;
-  margin: 0 40px;
+  margin: 0 80px;
   margin-top: 10px;
 }
 
